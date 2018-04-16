@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/roadmap_as_code
+   */site-packages/roadmap_as_code
+
+[run]
+branch = true
+source =
+    roadmap_as_code
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
